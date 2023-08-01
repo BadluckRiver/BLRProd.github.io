@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BLR Prod. Contact Page</title>
+<link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="This page serves as the contact BLR page, which will serve as a way for potential future work, to perform, and for inquiries about what the service or job may entail. It will solely be used for communication.">
+<meta name="keywords"  content="portfolio, contact, inquiry, email, communication">
+<script src="https://kit.fontawesome.com/eef1599c01.js" crossorigin="anonymous"></script>
+<meta name="copyright" content="BLR">
+<meta name="author" content="Josh Rosado">
+<script defer src="script/script.js"></script>
+
+</head>
+<body>
+
+<header>
+<h1>BLR Prod.</h1>
+
+<p class="hero">
+	<div class="hero-text">
+		<h1>BLR's Cats</h1>
+	</div>
+</p>
+
+<nav class="navbar">
+	<ul>
+        <li><a href="index.html">Home</a></li>
+	    <li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="future.html">Future Plans</a></li>
+        <li><a href="about.html">About BLR</a></li>
+        <li><a href="contact.html">Contact BLR</a></li>
+	</ul>
+</nav>
+</header>
+
+<article>
+<h2>Contact BLR</h2>
+
+<!-- start of freefind search box html -->
+<table>
+	<tr>
+		<td  colspan=2>
+			<form action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+			<input type="hidden" name="si" value="58300844">
+			<input type="hidden" name="pid" value="r">
+			<input type="hidden" name="n" value="0">
+			<input type="hidden" name="_charset_" value="">
+			<input type="hidden" name="bcd" value="&#247;">
+			<input type="text" name="query" size="15"> 
+			<input type="submit" value="search">
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://www.freefind.com" rel="nofollow" >search engine</a>
+			<a href="https://www.freefind.com"  rel="nofollow"> by
+			<span>freefind</span></a>
+		</td>	
+		<td>
+			<a href="https://search.freefind.com/find.html?si=58300844&amp;pid=a">advanced</a>
+		</td>
+	</tr>
+</table>
+<!-- end of freefind search box html --> 
+
+<form action="https://formsubmit.co/454a5b8df65c86727fbd657580baa615" method="POST">
+		<fieldset>
+		  <legend>Input Information Below:</legend>
+		  <ul>
+			<li tabindex="0">
+			  <label for="contact">
+				<input id="contact" type="radio" name="contact" value="contact">
+				Contact
+			  </label>
+			</li>
+			<li tabindex="0">
+			  <label for="inquiry">
+				<input id="inquiry" type="radio" name="inquiry" value="inquiry">
+				Inquiry
+			  </label>
+			</li>
+		  </ul>
+		
+			<p>
+		  	<label for="name">
+				<span>First Name: </span>
+				<strong><span aria-label="required">*</span></strong>
+		  	</label>
+		  		<input id="name" type="text" name="name" placeholder="EX. Jane" required>
+			</p>
+			<p>
+				<input id="client" type="checkbox" name="client" value="client">
+				<label for="client">Possible Client</label>
+			</p>
+			<p>
+		  		<label for="mail">
+				<span>Email: </span>
+				<strong><span aria-label="required">*</span></strong>
+		  	</label>
+		  		<input id="mail" type="email" name="mail" placeholder="EX. username@email.com" required>
+			</p>
+			<p>
+				<label for="message">Message:</label>
+				<textarea name="body" rows="10" cols="50" placeholder="Please Enter the message or question you would like to send:">Please Enter the message or question you would like to send:
+				</textarea>
+			</p>
+	  	
+			<p id="errorMessage" hidden></p>
+
+	  		<p>
+				<input type="reset">
+	  		</p>
+	  		<p>
+				<input type="submit" value="Send">
+	 		</p>
+		</fieldset>
+
+</form> 
+
+</article>
+
+<footer>
+	<p>| ©2023 | BLR Prod.</p><p id="time"></p>
+</footer>
+
+
+<script>
+	const d = new Date();
+	document.getElementById("time").innerHTML = d;
+</script>
+
+</body>
+</html>

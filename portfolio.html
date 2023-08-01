@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BLR Prod. Portfolio Page</title>
+<link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="This page serves as the portfolio page, for previous adobe creations, game, and web designs created.">
+<meta name="keywords"  content="portfolio, projects.">
+<script src="https://kit.fontawesome.com/eef1599c01.js" crossorigin="anonymous"></script>
+<meta name="copyright" content="Portfolio">
+<meta name="author" content="Josh Rosado">
+
+</head>
+<body>
+
+<header>
+<h1>BLR Prod.</h1>
+
+<p class="hero">
+	<div class="hero-text">
+		<h1>BLR's Cats</h1>
+	</div>
+</p>
+
+<nav class="navbar">
+	<ul>
+        <li><a href="index.html">Home</a></li>
+	    <li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="future.html">Future Plans</a></li>
+        <li><a href="about.html">About BLR</a></li>
+        <li><a href="contact.html">Contact BLR</a></li>
+	</ul>
+</nav>
+</header>
+
+<article>
+<h2>Portfolio</h2>
+
+<!-- start of freefind search box html -->
+<table>
+	<tr>
+		<td  colspan=2>
+			<form action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+			<input type="hidden" name="si" value="58300844">
+			<input type="hidden" name="pid" value="r">
+			<input type="hidden" name="n" value="0">
+			<input type="hidden" name="_charset_" value="">
+			<input type="hidden" name="bcd" value="&#247;">
+			<input type="text" name="query" size="15"> 
+			<input type="submit" value="search">
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://www.freefind.com" rel="nofollow" >search engine</a>
+			<a href="https://www.freefind.com"  rel="nofollow"> by
+			<span>freefind</span></a>
+		</td>	
+		<td>
+			<a href="https://search.freefind.com/find.html?si=58300844&amp;pid=a">advanced</a>
+		</td>
+	</tr>
+</table>
+<!-- end of freefind search box html -->
+
+<h3>Completed Projects:
+	<ul>
+		<li><a href="adobe.html">Adobe Creations</a></li>
+		<figure class="column">
+			<a href="adobe.html">
+			<img src="images/BLRLovelyBones.jpg" alt="BLRAdobe" width="100" height="100">
+			</a>
+			<figcaption>This page directs to the Adobe Creations, that BLR has worked on.
+			</figcaption>
+		</figure>
+		<li>Game BLR Created</li>
+		<figure class="column">
+			<a href="images/BloodFury.png">
+			<img src="images/BloodFury.png" alt="BloodFuryTitle" width="100" height="100">
+			</a>
+			<figcaption>Blood Fury is a game that BLR made in class to develop his game creation skills.<br>
+				You play as a Barbarian in a dungeon, trying to get the highest score you can. With health drops, <br>
+				and enemies randomly spawning randomly in the arena. <br>
+				(Working on figuring out how to get download link to work, or host for game to be played.) 
+			</figcaption>
+		</figure>
+		<li>Web Designs (More to come)</li>
+		<figure class="column">
+			<a href="images/WebDesign.png">
+			<img src="images/WebDesign.png" alt="WebDesign" width="100" height="100">
+			</a>
+			<figcaption>This is a previous web design template that BLR created for CMST 386, using Microsoft Visual Studio Code.
+			</figcaption>
+		</figure>
+	</ul>
+</h3>
+</article>
+
+<footer>
+	<p>| ©2023 | BLR Prod.</p><p id="time"></p>
+</footer>
+
+<script>
+	const d = new Date();
+	document.getElementById("time").innerHTML = d;
+</script>
+
+</body>
+</html>

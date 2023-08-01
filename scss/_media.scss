@@ -1,0 +1,48 @@
+@media screen and (max-width: 992px) {
+
+    body{
+        background-color: $secondary-color;
+        background-image: linear-gradient($secondary-color, rgb(15, 203, 209), white);
+    }
+    
+    figure {
+
+        img {
+
+            transition: none;
+
+            &:hover {
+
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background-color: $primary-color;
+        background-image: none;
+    }
+
+    figure {
+
+        img {
+
+            transition: none;
+
+            &:hover {
+
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+
+    }
+
+}

@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    margin: 6px;
+    background-color: $primary-color;
+    padding: 2px;
+    font-size: $font-size;
+	border: $secondary-color solid 3px;
+
+	a{
+		color:$font-color;
+	}
+
+    ul{
+		
+    list-style: none;
+    display: flex;
+    }
+    
+}
+
+.navbar {
+
+	display: inline-block;
+	justify-content: left;
+    
+	li {
+		
+		padding: 16px;
+		border: $secondary-color solid 3px;
+	}
+}
+

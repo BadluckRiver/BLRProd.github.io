@@ -56,7 +56,7 @@ figure .column {
   width: 33%;
 }
 figure figcaption {
-  float: right;
+  float: center;
 }
 figure img {
   transition: width 2s, height 2s;

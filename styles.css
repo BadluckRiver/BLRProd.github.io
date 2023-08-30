@@ -67,6 +67,10 @@ figure img:hover {
   height: 300px;
 }
 
+.emoji {
+  pointer-events: none;
+}
+
 body {
   font-family: "Merriweather", serif;
   background-color: red; /* For browsers that do not support gradients */
